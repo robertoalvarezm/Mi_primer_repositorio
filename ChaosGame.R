@@ -1,6 +1,7 @@
 library("Biostrings")
 library(ggplot2)
 
+# Esta instrucción lee una genoma completo
 genoma<-readDNAStringSet("~/Downloads/NC_001802.fna")
 genome$chr21
 
